@@ -56,6 +56,7 @@ Understanding the available data is crucial for effective analysis. Here’s a b
 - category: This column describes the category of spending (Entertainment, Apparel, Electronics, etc).
 - payment_type: This column specifies the type of payment used by the customer (Debit Card, Credit Card, UPI, Net Banking).
 - spends: This column shows the total amount spent by the customer in the specified month, category and payment_type.
+  
 
 ## Data Modeling
 Data modeling is the foundation of the Tableau report. A well-structured data model enhances the performance and accuracy of the dashboard. This project follows best practices in data modeling, utilizing a snowflake schema.
