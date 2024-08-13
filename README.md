@@ -40,7 +40,7 @@ Understanding the available data is crucial for effective analysis. Here’s a b
 - **Fact Tables**: Contain transactional data.
 
 ### Key Tables:
-##Column Description for dim_customers:
+## Column Description for dim_customers:
 - customer_id: This column represents the Unique ID assigned to each customer.
 - gender: This column represents the gender of the customer. (Male, Female)
 - age_group: This column categorizes the customer into different age groups. (21-24, 25-34, 35-45, 45+)
@@ -50,7 +50,7 @@ Understanding the available data is crucial for effective analysis. Here’s a b
 - average_income: This column indicates the monthly average income of the customer, in INR currency.
 
 
-##Column Description for fact_spends:
+## Column Description for fact_spends:
 - customer_id: This column represents the Unique ID of each customer, linking to the dim_customer table.
 - month: This column indicates the month in which the spending was recorded. (May, June, July, August, September, October)
 - category: This column describes the category of spending (Entertainment, Apparel, Electronics, etc).
